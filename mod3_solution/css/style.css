@@ -1,0 +1,60 @@
+h1{
+	font-size: 20px;
+	color: 
+	font-weight: bolder;
+}
+h2{
+	font-size: 25px;
+	font-weight: bolder;
+	margin: 15px auto 20px;
+}
+h3{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	margin: 10px auto;
+}
+p{
+	margin: 10px auto 10px;
+	font-style: italic;
+}
+.dish{
+	background-color: #fff0ac;
+	margin: 0 5px 20px;
+	padding: 0 20px 20px;
+	position: relative;
+	overflow: auto;
+}
+.backTop{
+	background-color: #cc3333;
+	font-size: 18px;
+	font-weight: bolder;
+	padding: auto;
+	height: 35px;
+	width: 60px;
+	position: relative;
+	float: right;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+.backTop a{
+	text-decoration: none;
+	color: #642100;
+}
+.backTop a:hover{
+	color: white;
+}
+#chicken{
+	height: 1000px;
+}
+#beef, #sushi{
+	height: 500px;
+}
+.navbar{
+	background-color: #99cccc;
+	font-weight: bolder;
+}
+#navbarNavAltMarkup a:hover {
+	color: #ffffff;
+	opacity: .8;
+}
