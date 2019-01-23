@@ -44,10 +44,7 @@ p{
 .backTop a:hover{
 	color: white;
 }
-#chicken{
-	height: 1000px;
-}
-#beef, #sushi{
+#chicken, #beef, #sushi{
 	height: 500px;
 }
 .navbar{
