@@ -11,8 +11,11 @@
 <body>
 
 	<script>
-		$.getJSON("https://shawim.github.io/test/test_fot_json/gallery_info.json", function(){
-			alert("success");
+		$.getJSON("https://shawim.github.io/test/test_fot_json/gallery_info.json", function(data){
+			$.each(data.items, function(i, item){
+				console.log("i"+"item");
+				console.log(data[i]);
+			})
 		});
 	</script>
 
