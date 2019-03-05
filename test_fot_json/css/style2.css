@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    grid-column: 1 / -1;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.navbar {
+    opacity: 0.9;
+}
+.navbar-toggler-icon {
+    width: 1.2rem;
+}
+/* main grid */
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 460px min-content 80px;
+    grid-gap: 15px;
+}
+.grid header {
+    height: 460px;
+    width: 100%;
+}
+.grid header > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid main {
+    display: grid;
+    width: 100%;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.grid footer {
+    background-color:#636e72;
+    font-size: 12px;
+    color: silver;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 150px min-content;
+}
+
+/* main content */
+#banner {
+    height: 460px;
+    max-height: 100%;
+    width: 100%;
+    background-image: url("../img/banner.jpg");
+    opacity: .9;
+}
+#banner .title {
+    width: 100%;
+    height: 60px;
+    background-image: url("../img/Title.svg");
+}
+#banner img {
+    display: block;
+    overflow-x: hidden;
+}
+#about .row {
+    grid-column: 2 / 3;
+}
+#about .myphoto {
+    background-image: url("../img/about_me.jpg");
+    min-height: 150px;
+    height: auto;
+    padding: 10px;
+    opacity: 0.9;
+}
+#about .a-content {
+    padding: 10px;
+}
+#gallery {
+    min-height: 400px;
+    grid-template-rows: 150px min-content min-content;
+    justify-items: center;
+    align-items: center;
+}
+#gallery h2 {
+    opacity: 0.6;
+    color: white;
+    background-color: black;
+}
+#gallery p {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+#gallery .showphoto {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    width: 100%;
+}
+#contact {
+    min-height: 500px;
+}
+.bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subtitle {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    justify-self: center;
+    align-self: center;
+}
+.items {
+    height: 130px;
+    background-color: brown;
+    padding: 5px;
+}
