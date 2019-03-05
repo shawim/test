@@ -4,7 +4,8 @@ $.ajax({
     dataType: 'json',
     success: function (data) {
         console.log(data);
-        this.images = data;
+        window.images = data;
+        console.log(images);
     }
 });
 console.log(images);
