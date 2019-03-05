@@ -1,7 +1,8 @@
-function getImageInfo {
+var imgInfoUrl = 'https://shawim.github.io/test/test_fot_json/gallery_info.json';
+function getImageInfo(imgInfoUrl) {
     var images = [];
     $.ajax({
-        url: 'https://shawim.github.io/test/test_fot_json/gallery_info.json',
+        url: imgInfoUrl,
         dataType: 'json',
         success: function (data) {
             if(data)
