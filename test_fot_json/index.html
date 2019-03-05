@@ -11,12 +11,12 @@
 <body>
 
 	<script>
-		$.getJSON("https://shawim.github.io/test/test_fot_json/gallery_info.json", function(data){
-			$.each(data.items, function(i, item){
-				console.log("i"+"item");
-				console.log(data[i]);
-			})
+		var images = $.getJSON("https://shawim.github.io/test/test_fot_json/gallery_info.json", function(){
+			alert("success");
 		});
+		for (i=0; i<5; i++){
+			console.log(images[i].name);
+		}
 	</script>
 
 <!-- Load Jquery and Boostrap -->
