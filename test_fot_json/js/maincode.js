@@ -1,4 +1,6 @@
 var imgInfoUrl = 'https://shawim.github.io/test/test_fot_json/gallery_info.json';
+var images = [];
+
 function getImageInfo(imgInfoUrl) {
     var images = [];
     $.ajax({
@@ -20,6 +22,5 @@ function getImageInfo(imgInfoUrl) {
         }
     });
     return images; 
-    console.log(images);
 }
-
+console.log(images);
